@@ -1,0 +1,99 @@
+.itemsContainer {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+
+.item_text {
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+    max-width: 400px;
+}
+
+.item_border {
+    border-top: 1px solid #fff;
+    width: 345px;
+}
+
+.item_text2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img_latest {
+    width: 200px;
+    /* Ширина изображения */
+    height: 300px;
+    /* Высота изображения */
+    margin: 25px;
+}
+
+.item_border2 {
+    border-top: 1px solid #fff;
+    margin-top: 30px;
+}
+
+.item_text3 {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+    max-width: 370px;
+    text-align: center;
+}
+
+.img_ilon {
+    width: 380px;
+    height: 380px;
+    margin-top: 10px;
+
+}
+
+.tesla {
+    max-width: 100%;
+    /* Максимальная ширина контейнера */
+    max-height: 600px;
+    width: 100%;
+    /* Занимает 100% ширины контейнера */
+    height: auto;
+    /* Поддерживает пропорции, чтобы изображение не искажалось */
+    object-fit: cover;
+
+}
+
+.pusto{
+margin-bottom: 70px;}
+
+@media (max-width: 767px) {
+    .img_latest {
+        width: 300px;
+        height: 450px;
+    }
+
+    .item_text,
+    .item_text2,
+    .item_text3,
+    .item_text4 {
+        text-align: center;
+    }
+
+    .item_border {
+        width: auto;
+    }
+
+    .img_ilon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

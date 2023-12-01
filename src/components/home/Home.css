@@ -1,0 +1,66 @@
+/* src/components/Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    margin: 0;
+    /* Высота 100% от видимой области экрана */
+   /* background-image: url('../../images/Home_img/back.png');
+  */  margin-top: 100px;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.Home_image {
+    max-width: 100%;
+    height: auto;
+}
+
+.Text_home {
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 80px;
+    border-bottom: 3px solid #fff;
+}
+
+.oval_link {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #272424;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px sloid #fff;
+}
+
+.oval_link:hover {
+    background-color: #5f6467; /* Изменение цвета при наведении */
+}
+
+.oval_link2 {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #272424;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.oval_link2:hover {
+    background-color: #5f6467; /* Изменение цвета при наведении */
+}

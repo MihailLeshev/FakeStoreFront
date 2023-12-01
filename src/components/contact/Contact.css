@@ -1,0 +1,90 @@
+.Container_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_contact {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.block_contant {
+    position: relative;
+    width: 70%;
+    /* Используем относительную ширину для адаптивности */
+    max-width: 700px;
+    /* Устанавливаем максимальную ширину */
+    height: 358px;
+    border-radius: 9%;
+    background-color: #222121;
+    border: 1px solid #fff;
+    overflow: hidden;
+    /* Обрезаем псевдоэлемент за пределами блока */
+}
+
+.block_contant::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    /* Размещаем линию по середине блока по вертикали */
+    left: 0;
+    width: 100%;
+    /* Ширина линии равна ширине блока */
+    height: 1px;
+    /* Высота линии */
+    background-color: #fff;
+    transform: translateY(-50%);
+    /* Сдвигаем линию обратно на половину ее высоты */
+}
+
+.dollar {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.mail {
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    object-fit: cover;
+}
+
+.block_contant_text {
+    color: #fff;
+    position: absolute;
+    margin-top: 203px;
+    margin-left: 57px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.oval_link_contact {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #524e4e;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    margin-top: 250px;
+    margin-left: 10px;
+    font-size: 20px;
+    border: 2px sloid #fff;
+}
+
+.oval_link_contact:hover {
+    background-color: #848484;
+}

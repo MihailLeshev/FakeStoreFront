@@ -1,0 +1,51 @@
+.container {
+  max-width: 600px;
+  margin: 150px auto;
+  background-color: #2e2b2b;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid rgb(30, 122, 32);
+  border-radius: 4px;
+}
+
+button {
+  background-color: #797979;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: rgb(17, 79, 0);
+  color: #000000;
+}
+
+.name_1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.name_2 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  background-color: #989898;
+}
